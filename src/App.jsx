@@ -473,7 +473,7 @@ export default function App() {
               >
                 <div className="profile-image-wrapper">
                   <img 
-                    src="/assets/portrait.jpg" 
+                    src={`${import.meta.env.BASE_URL}assets/portrait.jpg`} 
                     alt="Mark A. Flandez - IT Specialist and UAV Instructor" 
                     className="profile-img" 
                     width="500" 
@@ -632,7 +632,7 @@ export default function App() {
               transition={{ duration: 0.6 }}
             >
               <img 
-                src="/assets/hero-banner.jpg" 
+                src={`${import.meta.env.BASE_URL}assets/hero-banner.jpg`} 
                 alt="IT Server Infrastructure and Agricultural Drone Engineering Workbench" 
                 className="synergy-img" 
                 loading="lazy" 
